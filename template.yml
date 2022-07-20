@@ -9,7 +9,7 @@ Resources:
         - !Ref InstanceSecurityGroup
       KeyName: vockey
       ImageId: "ami-0d70546e43a941d70" # you may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
-      InstanceType: t3.micro
+      InstanceType: t2.micro
   InstanceSecurityGroup:
     Type: "AWS::EC2::SecurityGroup"
     Properties:
